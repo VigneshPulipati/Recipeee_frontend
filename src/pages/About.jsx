@@ -62,7 +62,7 @@ const About = () => {
                 <div className="w-full sm:w-1/2 lg:w-1/4 p-4 hover:scale-105">
                   <div className="bg-black rounded-lg shadow-lg border-primary border-2 p-6">
                     <img
-                      src={vig}
+                      src={sriram}
                       alt="Developer 2"
                       className="w-32 h-32 mx-auto rounded-full mb-4 border-cyellow border-2"
                     />
@@ -79,7 +79,7 @@ const About = () => {
                 <div className="w-full sm:w-1/2 lg:w-1/4 p-4 hover:scale-105">
                   <div className="bg-black rounded-lg shadow-lg border-primary border-2 p-6">
                     <img
-                      src={vig}
+                      src={rut}
                       alt="Developer 3"
                       className="w-32 h-32 mx-auto rounded-full mb-4 border-cyellow border-2"
                     />
