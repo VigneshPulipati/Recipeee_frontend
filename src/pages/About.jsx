@@ -1,5 +1,7 @@
 import React from "react";
 import vig from "../assets/vig.png";
+import sriram from "../assets/sriram.jpg";
+import ruthvik from "../assets/ruthvik.jpg";
 import ReactImg from "../assets/react.svg";
 import tailwindcss from "../assets/tailwind.svg";
 import jwt from "../assets/jwt.png";
@@ -63,7 +65,7 @@ const About = () => {
                   <div className="bg-black rounded-lg shadow-lg border-primary border-2 p-6">
                     <img
                       src={sriram}
-                      alt="Developer 2"
+                      alt="Sriram kotha"
                       className="w-32 h-32 mx-auto rounded-full mb-4 border-cyellow border-2"
                     />
                     <h2 className="text-cyellow font-semibold text-xl">Sriram Kotha</h2>
@@ -79,11 +81,11 @@ const About = () => {
                 <div className="w-full sm:w-1/2 lg:w-1/4 p-4 hover:scale-105">
                   <div className="bg-black rounded-lg shadow-lg border-primary border-2 p-6">
                     <img
-                      src={rut}
-                      alt="Developer 3"
+                      src={ruthvik}
+                      alt="Surya ruthvik"
                       className="w-32 h-32 mx-auto rounded-full mb-4 border-cyellow border-2"
                     />
-                    <h2 className="text-cyellow font-semibold text-xl">Developer Three</h2>
+                    <h2 className="text-cyellow font-semibold text-xl">Surya Ruthvik</h2>
                     <h2 className="text-white font-semibold mt-2">Backend Developer</h2>
                     <div className="mt-2 flex items-center justify-center gap-3">
                       <FaLinkedin size={32} color="white" />
